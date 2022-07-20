@@ -13,6 +13,7 @@
     align-items: center;
     justify-content: space-between;
     margin: 1em auto 2em;
+    width: 100%;
 }
 
 .flags img{
@@ -22,6 +23,7 @@
 
 .flags h2 {
     text-align: center;
+    width: 20%;
 }
 
 .match-info {
@@ -32,9 +34,6 @@
 .match-info h1 {
     font-size: 1.2em;
     color: #161616;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
 }
 
 .match-info p {
