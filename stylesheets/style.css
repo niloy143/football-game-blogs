@@ -16,6 +16,48 @@ body {
     font-size: 16px;
 }
 
+@keyframes button-color-animation {
+    0% {
+        background:rgba(153, 255, 0, 0.7);
+    }
+    20% {
+        background:rgba(0, 255, 136, 0.7);
+    }
+    40% {
+        background:rgba(0, 140, 255, 0.7);
+    }
+    60% {
+        background:rgba(98, 0, 255, 0.7);
+    }
+    80% {
+        background:rgba(0, 140, 255, 0.7);
+    }
+    90% {
+        background:rgba(0, 255, 136, 0.7);
+    }
+}
+
+@keyframes bg-color-animation {
+    0% {
+        background: #191446;
+    }
+    50% {
+        background: #36028a;
+    }
+}
+
+.header-text button, aside #selected {
+    animation-name: button-color-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
+header,aside ul{
+    animation-name: bg-color-animation;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+}
+
 /* ===================== Header Part Started ==================== */
 
 header {
@@ -83,6 +125,7 @@ aside ul {
     padding: 30px;
     background-color: #191446;
     border-radius: 10px;
+    animation-delay: 2s;
 }
 
 aside a {
@@ -95,11 +138,13 @@ aside a {
     font-size: 20px;
     font-weight: 500;
     border-radius: 5px;
+    border: 1px solid rgba(128, 128, 128, 0.3);
 }
 
 #selected {
     background:rgba(153, 255, 0, 0.7);
     color: white;
+    animation-delay: 2s;
 }
 
 /* ==================== Moment Boxes Styles ==================== */
@@ -183,10 +228,10 @@ footer hr {
 }
 
 .social-links i {
-    color: white;
-    background: blue;
-    height: 50px;
-    width: 50px;
+    color: #100c33;
+    background: rgba(255, 255, 255, 0.9);
+    height: 2em;
+    width: 2em;
     font-size: 2em;
     display: flex;
     justify-content: center;
