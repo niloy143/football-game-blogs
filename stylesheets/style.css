@@ -20,6 +20,8 @@ button, a, li {
     cursor: pointer;
 }
 
+/* ================ Animation Part ================== */
+
 @keyframes button-color-animation {
     0% {
         background:rgba(153, 255, 0, 0.7);
@@ -62,7 +64,7 @@ header,aside ul{
     animation-iteration-count: infinite;
 }
 
-/* ===================== Header Part Started ==================== */
+/* ===================== Header Part ==================== */
 
 header {
     background: #191446;
@@ -117,7 +119,7 @@ main {
     gap: 30px;
 }
 
-/* ======================== left side box styles =================== */
+/* ======================== left/menu box styles =================== */
 
 aside ul {
     list-style-type: none;
@@ -151,8 +153,9 @@ aside a {
     animation-delay: 2s;
 }
 
-/* ==================== Moment Boxes Styles ==================== */
+/* left/menu box end  */
 
+/* ==================== Main Content Boxes Styles ==================== */
 
 section {
     display: grid;
@@ -201,7 +204,7 @@ section {
     margin-right: .5em;
 }
 
-/* tablet view all button  */
+/* tablet view-all button  */
 
 .view-all {
     display: none;
@@ -217,6 +220,8 @@ section {
     font-size: 1.3em;
     border-radius: .3em;
 }
+
+/* Main content part end  */
 
 /* ===================== Footer Styles =================== */
 

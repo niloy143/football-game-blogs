@@ -1,3 +1,9 @@
+
+/* ====================================
+    Mobile Responsive Styles
+==================================== */
+
+
 @media screen and (max-width: 600px) {
     
     header, main {
@@ -24,7 +30,7 @@
         width: 100%;
     }
 
-/* ==================================== */
+/* ================= Content and Menu Part =================== */
 
     main {
         flex-direction: column;
@@ -49,7 +55,7 @@
         font-size: 14px;
     }
 
-    /* ======================================= */
+    /* ================== Footer ===================== */
 
     footer {
         padding: 1em;
@@ -73,6 +79,12 @@
     }
 }
 
+
+/* ====================================
+    Tablet Responsive Styles
+==================================== */
+
+
 @media screen and (min-width: 601px) and (max-width: 1000px) {
     header {
         font-size: 10px;
@@ -81,7 +93,7 @@
         padding: 5%;
     }
 
-    /* ============================= */
+    /* ============= Main Content and Left Menu ================ */
 
     main {
         flex-direction: column;
@@ -115,7 +127,7 @@
         display: flex;
     }
 
-    /* ================================== */
+    /* =============== Footer =================== */
 
     footer{
         margin-top: 3em;
@@ -128,6 +140,10 @@
     }
 }
 
+
+/* ===========================================
+    All devices with minimum width 1001px
+============================================== */
 
 @media screen and (min-width: 1001px) {
     header, main {
