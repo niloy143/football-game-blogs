@@ -44,6 +44,11 @@
         grid-template-columns: 100%;
     }
 
+    .matches {
+        padding: .8em 2em;
+        font-size: 14px;
+    }
+
     /* ======================================= */
 
     footer {
@@ -103,7 +108,7 @@
     section {
         grid-template-columns: repeat(2,49%);
     }
-    .box.tablet-mode {
+    .tablet-mode {
         display: none;
     }
     .view-all {

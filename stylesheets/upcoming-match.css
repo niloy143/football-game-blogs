@@ -1,0 +1,36 @@
+.matches {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid rgba(128, 128, 128, 0.3);
+    border-radius: 1em;
+    padding: 2em 2em 3em;
+}
+.flags {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 1em auto 2em;
+}
+
+.flags img{
+    width: 40%;
+    box-shadow: 2px 2px 5px rgba(128, 128, 128, 0.3), -2px -2px 5px rgba(128, 128, 128, 0.3);
+}
+
+.flags h2 {
+    text-align: center;
+}
+
+.match-info {
+    height: auto;
+    text-align: center;
+}
+
+.match-info h1 {
+    font-size: 1.2em;
+    color: #161616;
+}
+
+.match-info p {
+    color: #4d4d4d;
+}
