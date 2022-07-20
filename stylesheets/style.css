@@ -7,13 +7,17 @@
     font-family: 'Poppins', sans-serif;
 }
 
+body {
+    font-size: 16px;
+}
+
 header, main {
     margin: 0 auto;
     max-width: 1320px;
 }
 
-body {
-    font-size: 16px;
+button, a, li {
+    cursor: pointer;
 }
 
 @keyframes button-color-animation {
@@ -46,7 +50,7 @@ body {
     }
 }
 
-.header-text button, aside #selected {
+.header-text button, aside #selected, #view-all {
     animation-name: button-color-animation;
     animation-duration: 5s;
     animation-iteration-count: infinite;
@@ -168,7 +172,7 @@ section {
 }
 
 .details {
-    padding: 1em 1.5em;
+    padding: 1em;
 }
 
 .details button {
@@ -183,6 +187,8 @@ section {
 
 .details h3 {
     margin: 1em 0;
+    font-size: 1.2em;
+    font-weight: 500;
 }
 
 .time-and-comment {
@@ -193,6 +199,23 @@ section {
 
 .time-and-comment i {
     margin-right: .5em;
+}
+
+/* tablet view all button  */
+
+.view-all {
+    display: none;
+    justify-content: center;
+    margin: 1em auto 3em;
+}
+
+#view-all {
+    text-decoration: none;
+    background:rgba(153, 255, 0, 0.7);
+    color: white;
+    padding: .7em 2em;
+    font-size: 1.3em;
+    border-radius: .3em;
 }
 
 /* ===================== Footer Styles =================== */
