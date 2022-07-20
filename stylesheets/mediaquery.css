@@ -1,3 +1,10 @@
+ /*==================================================================================================
+How I considered devices:-
+
+ width: 0 - 600px (small screen / mobile devices)
+ width: 601px-1000px (medium screen / ipad, tablet macbook etc)
+ width: more than 1000px (large devices) [although max-width is 1320px for any extra large devices]
+ ===================================================================================================*/
 
 /* ====================================
     Mobile Responsive Styles
