@@ -243,16 +243,16 @@ footer hr {
     margin: 3em auto;
 }
 
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
 .footer-menu, .social-links {
     display: flex;
     justify-content: center;
     gap: 2em;
     margin-bottom: 2em;
-}
-
-.footer-menu a {
-    text-decoration: none;
-    color: white;
 }
 
 .social-links i {

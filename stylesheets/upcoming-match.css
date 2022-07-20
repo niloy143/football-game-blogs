@@ -32,6 +32,9 @@
 .match-info h1 {
     font-size: 1.2em;
     color: #161616;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 .match-info p {
